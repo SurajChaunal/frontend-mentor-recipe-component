@@ -31,7 +31,7 @@ body {
   padding: 1.6rem;
   border-radius: 1.2rem;
   box-shadow: 0 0 8px 2px var(--color-stone-150);
-  margin: 10rem auto;
+  margin: 12rem auto;
 }
 .main-header {
   margin-bottom: 2.4rem;
@@ -39,12 +39,13 @@ body {
 .header-image {
   width: 100%;
   border-radius: 1.2rem;
+  margin-bottom: 2.4rem;
 }
 .primary-heading {
-  font-size: 3rem;
+  font-size: 3.6rem;
   color: var(--color-stone-900);
   font-family: "Young Serif", serif;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .header-description {
   line-height: 2.4rem;
@@ -73,18 +74,19 @@ body {
   font-weight: 600;
   /* color: var(--color-stone-900); */
   display: inline-block;
-git }
+}
 
 .ingredients {
   padding: 1.6rem;
   border-bottom: 1px solid #ddd;
+  margin-bottom: 2.4rem;
 }
 .secondary-heading {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.4rem;
+  font-weight: 500;
   color: var(--color-brown-800);
   font-family: "Young Serif", serif;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
 }
 .ingredients-list {
   display: flex;
@@ -95,8 +97,9 @@ git }
 }
 .instructions {
   padding: 1.6rem;
-  line-height: 2.4rem;
+  line-height: 3rem;
   border-bottom: 1px solid#ddd;
+  margin-bottom: 2.4rem;
 }
 .instructions-list {
   display: flex;
@@ -110,7 +113,8 @@ git }
 }
 .nutrition-table {
   width: 100%;
-  border-spacing: 0 1.2rem;
+  border-spacing: 0 1.6rem;
+  padding: 1.6rem;
 }
 th,
 td {
@@ -121,4 +125,8 @@ td {
 .nutrition-tag {
   color: var(--color-brown-800);
   font-weight: 600;
+}
+.instructions-list li::marker {
+  font-size: 1em; /* optional: change bullet size */
+  padding-right: 4rem !important; /* add spacing between bullet and text */
 }
